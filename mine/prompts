@@ -1,0 +1,25 @@
+Run a for loop to run through both the lists and randomly select one from each
+to create a randomized prompt. 
+
+Adjectives
+red
+angry
+green
+blue
+happy
+sad
+excited
+tall
+short
+black
+Nouns
+bird
+t-shirt
+penguin
+chair
+computer
+pencil
+phone
+whiteboard
+backpack
+chicken nugget

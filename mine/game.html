@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="//toolness.github.io/p5.js-widget/p5-widget.js"></script> -->
+  <iframe src="https://editor.p5js.org/Audreyyyyyyyy/full/i586eb0-g"
+    style="width: 640px; height: 360px; overflow: hidden;" scrolling="no" frameborder="0"></iframe>
+  <title>Game Page</title>
+  <script src="question.js"></script>
+  <style>
+    #wordbox {
+      margin: 30px auto 0;
+      display: block;
+      width: 300px;
+      height: 40px;
+      font-size: 30px;
+      text-align: center;
+      background: #fff;
+      border-radius: 6px;
+      color: 0;
+      transition: 1s linear;
+    }
+  </style>
+</head>
+
+<body style="background-color: lightskyblue">
+  <script type="text/p5">
+    function setup() {
+        createCanvas(1000, 500); //Canvas size
+      }
+      
+      function draw() {
+        if (mouseIsPressed == true) {
+          stroke(0); //stroke color
+          strokeWeight(4); // stroke size
+          line(mouseX, mouseY, pmouseX, pmouseY);
+        }
+      </script>
+  <h2>Here is your prompt! </h2>
+  <!-- <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click me to display the PROMPT</button>
+  <p id="demo"></p> -->
+  <form NAME="WordForm">
+    <input type=text name="WordBox" id="wordbox"><BR>
+    <input type=button value="Prompt" onClick="PickRandomWord(document.WordForm);" id="button">
+    </form>
+  <input type = button Vl>
+
+</body>
+
+</html>
